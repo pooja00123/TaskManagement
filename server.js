@@ -35,14 +35,6 @@ app.use('/todos',todoRoute)
 
  
 app.use('/notes',noteRoute)
-
- 
- 
-
- 
- 
-
- 
 db.sync()
 
 .then(() => {
